@@ -1,5 +1,5 @@
 # DEFAULT COMMANDS:
-# /tool fetch url="https://raw.githubusercontent.com/zbox/mikrotik-conf/main/rb941.00.rsc" dst-path="ros.rb941.00.rsc"
+# /tool fetch url="https://raw.githubusercontent.com/pkgstore/mikrotik-conf/main/rb941.00.rsc" dst-path="ros.rb941.00.rsc"
 # /tool fetch url="https://curl.se/ca/cacert.pem" dst-path="ros.cacert.pem"
 # /system reset-configuration no-defaults=yes skip-backup=yes run-after-reset="ros.rb941.00.rsc"
 # /certificate import file-name="ros.cacert.pem" passphrase="" name="ROS"
