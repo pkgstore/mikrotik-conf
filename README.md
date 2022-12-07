@@ -1,5 +1,9 @@
 # MikroTik Configuration Files
 
+MikroTik configuration files for quick router setup. 
+
+## Terminal
+
 ```
 /tool fetch url="https://raw.githubusercontent.com/pkgstore/mikrotik-conf/main/FILENAME.rsc" dst-path="ros.FILENAME.rsc"
 /tool fetch url="https://curl.se/ca/cacert.pem" dst-path="ros.cacert.pem"
